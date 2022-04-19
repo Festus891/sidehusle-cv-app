@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@100;400&display=swap');
+header {
+  background-color: #fff;
+  height: 150px;
+  width: 100%;
+  color: #111;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 3.5em;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 10px;
+  border-bottom: solid 2px black;
+}
+.summary-header,
+.skills-header,
+.details-header,
+.details-header,
+.education-header,
+.experience-header {
+  font-size: 2em;
+  color: #111111;
+  padding: auto;
+}
+.summary-content,
+.education-content,
+.experience-content {
+  font-size: 18px;
+}
+.details-content {
+  font-size: 18px;
+  line-height: 14px;
+}
+.details,
+.summary,
+.education {
+  margin-bottom: 40px;
+}
+.experience {
+  margin-bottom: 60px;
+}
+footer {
+  height: 60px;
+  background-color: #5b9cd6;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  header{
+    font-size: 3.5em;
+    line-height: 60px;
+  }
+}
